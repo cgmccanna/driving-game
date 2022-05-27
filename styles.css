@@ -5,3 +5,23 @@ body {
 img {
   width: 150px;
 }
+
+.north {
+  transform: rotate(-90deg);
+  transition: all .15s;
+}
+
+.east {
+  transform: rotate(0);
+  transition: all .15s;
+}
+
+.south {
+  transform: rotate(90deg);
+  transition: all .15s;
+}
+
+.west {
+  transform: rotate(180deg);
+  transition: all .15s;
+}
